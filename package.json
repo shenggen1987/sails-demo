@@ -26,7 +26,8 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "release": "pm2 startOrGracefulReload ./pm2.json --no-daemon"
   },
   "main": "app.js",
   "repository": {
