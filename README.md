@@ -20,3 +20,6 @@ sails generate api order
 post http://10.1.31.35:5200/order/create?name=222&age=22&phone=15268155415
 get  http://10.1.31.35:5200/order/58a2b9721757a3c32263b12b
 delete http://10.1.31.35:5200/order/58a2b52485060f6c220e46b5
+
+分页   
+get http://localhost:1337/order/find?limit=1&skip=1
